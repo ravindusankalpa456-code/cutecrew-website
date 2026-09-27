@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cute Crew — Cute T-Shirts</title>
+<meta name="description" content="Cute Crew — cute character T-shirts, comfortable everyday wear and islandwide delivery in Sri Lanka.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#f22b73;--pink2:#ff78a8;--purple:#7139a8;--ink:#35243b;--cream:#fff9fc;--card:#fff;--line:#f1dce7;--green:#16a65a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#fff7fb,#fff);color:var(--ink);font-family:Poppins,Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand img{height:56px;max-width:190px;object-fit:contain}
+.navlinks{display:flex;gap:22px;font-weight:600;font-size:14px}
+.navlinks a:hover{color:var(--pink)}
+.hero{padding:28px 0 18px}
+.hero-cover{border-radius:28px;overflow:hidden;box-shadow:0 16px 45px rgba(102,40,91,.12);background:#fff}
+.hero-cover img{display:block;width:100%;height:auto}
+.hero-copy{text-align:center;padding:28px 10px 18px}
+.eyebrow{display:inline-block;background:#ffe2ee;color:#b20e52;border-radius:999px;padding:7px 13px;font-weight:700;font-size:12px}
+h1,h2,h3{font-family:"Baloo 2",sans-serif}
+h1{font-size:clamp(38px,7vw,66px);line-height:.95;margin:12px 0 8px}
+.hero-copy p{max-width:650px;margin:0 auto;color:#705e74;font-size:15px}
+.cta-row{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;font-weight:700}
+.btn-primary{background:var(--pink);color:white;box-shadow:0 8px 18px rgba(242,43,115,.2)}
+.btn-soft{background:#fff;border:1px solid var(--line)}
+.section{padding:42px 0}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:18px}
+.section-head h2{font-size:34px;margin:0}
+.section-head p{margin:0;color:#806f84;font-size:13px}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.product-card{background:white;border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:0 8px 25px rgba(79,31,67,.07)}
+.product-image-wrap{background:#fff3f8}
+.product-image-wrap img{width:100%;display:block;aspect-ratio:1/1;object-fit:cover}
+.product-info{padding:16px}
+.pill{display:inline-block;font-size:11px;font-weight:700;background:#fff0f6;color:#ad1553;padding:6px 9px;border-radius:999px}
+.product-info h3{font-size:24px;margin:9px 0 3px}
+.product-info p{font-size:12px;color:#79697c;margin:0 0 13px}
+.product-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.product-bottom strong{font-size:20px}
+.order-btn{background:#19a95a;color:white;padding:9px 15px;border-radius:999px;font-weight:700;font-size:13px}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.feature{background:white;border:1px solid var(--line);border-radius:20px;padding:18px;text-align:center}
+.feature .icon{font-size:27px}
+.feature strong{display:block;margin-top:5px;font-family:"Baloo 2";font-size:19px}
+.feature span{font-size:11px;color:#776a79}
+.size-box{background:#fff;border:1px solid var(--line);border-radius:24px;padding:20px;overflow:auto}
+table{width:100%;border-collapse:collapse;min-width:500px}
+th,td{padding:11px;border:1px solid #efd5e2;text-align:center;font-size:13px}
+th{background:#ffe6f0;color:#a41450}
+.order-banner{background:linear-gradient(135deg,#ff4e8a,#9b55c8);color:#fff;border-radius:28px;padding:28px;text-align:center;box-shadow:0 15px 35px rgba(154,73,157,.2)}
+.order-banner h2{font-size:34px;margin:0 0 5px}
+.order-banner p{margin:0 0 18px;font-size:14px}
+footer{padding:32px 0 42px;text-align:center;color:#7d6c80;font-size:12px}
+footer img{height:72px;max-width:180px;object-fit:contain;margin-bottom:8px}
+@media(max-width:850px){.products{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:repeat(2,1fr)}.navlinks{display:none}}
+@media(max-width:560px){.nav{height:62px}.brand img{height:48px;max-width:155px}.hero{padding-top:14px}.hero-cover{border-radius:18px}.products{grid-template-columns:1fr;gap:14px}.section{padding:30px 0}.section-head h2{font-size:29px}.feature{padding:14px 8px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#"><img src="images/cute-crew-logo.jpg" alt="Cute Crew logo"></a>
+    <nav class="navlinks">
+      <a href="#shop">Shop</a><a href="#sizes">Sizes</a><a href="#about">About</a><a href="#order">Order</a>
+    </nav>
+    <a class="btn btn-primary" href="https://wa.me/message/DKE4XENTCMCKF1" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="hero-cover"><img src="images/cover.jpg" alt="Cute Crew cover banner"></div>
+    <div class="hero-copy">
+      <span class="eyebrow">NOW AVAILABLE • LIMITED STOCK</span>
+      <h1>Cute style for brighter days.</h1>
+      <p>Original Cute Crew characters, comfy everyday T-shirts and playful designs made to bring a little more happiness to your outfit.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#shop">Shop the collection</a>
+        <a class="btn btn-soft" href="https://wa.me/message/DKE4XENTCMCKF1" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="shop" class="section">
+  <div class="container">
+    <div class="section-head">
+      <div><h2>Our Cute Collection</h2><p>Real product photos from Cute Crew</p></div>
+    </div>
+    <div class="products">
+      
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="images/mimi-cherry-tee.jpg" alt="Mimi Cherry Tee — Cute Crew" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="pill">Cherry Collection</span>
+          <h3>Mimi Cherry Tee</h3>
+          <p>Mimi character • 220 GSM • DTF print</p>
+          <div class="product-bottom">
+            <strong>Rs. 1,600</strong>
+            <a class="order-btn" href="https://wa.me/message/DKE4XENTCMCKF1" target="_blank" rel="noopener">Order</a>
+          </div>
+        </div>
+      </article>
+    
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="images/momo-panda-tee.jpg" alt="Momo Panda Tee — Cute Crew" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="pill">Green Collection</span>
+          <h3>Momo Panda Tee</h3>
+          <p>Momo character • 220 GSM • DTF print</p>
+          <div class="product-bottom">
+            <strong>Rs. 1,600</strong>
+            <a class="order-btn" href="https://wa.me/message/DKE4XENTCMCKF1" target="_blank" rel="noopener">Order</a>
+          </div>
+        </div>
+      </article>
+    
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="images/momo-raglan-tee.jpg" alt="Momo Raglan Tee — Cute Crew" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="pill">Raglan Collection</span>
+          <h3>Momo Raglan Tee</h3>
+          <p>Momo character • 220 GSM • DTF print</p>
+          <div class="product-bottom">
+            <strong>Rs. 1,600</strong>
+            <a class="order-btn" href="https://wa.me/message/DKE4XENTCMCKF1" target="_blank" rel="noopener">Order</a>
+          </div>
+        </div>
+      </article>
+    
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="images/mimi-strawberry-tee.jpg" alt="Mimi Strawberry Tee — Cute Crew" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="pill">Pink Collection</span>
+          <h3>Mimi Strawberry Tee</h3>
+          <p>Mimi character • 220 GSM • DTF print</p>
+          <div class="product-bottom">
+            <strong>Rs. 1,600</strong>
+            <a class="order-btn" href="https://wa.me/message/DKE4XENTCMCKF1" target="_blank" rel="noopener">Order</a>
+          </div>
+        </div>
+      </article>
+    
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="images/lulu-purple-tee.jpg" alt="Lulu Purple Tee — Cute Crew" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="pill">Purple Collection</span>
+          <h3>Lulu Purple Tee</h3>
+          <p>Lulu character • 220 GSM • DTF print</p>
+          <div class="product-bottom">
+            <strong>Rs. 1,600</strong>
+            <a class="order-btn" href="https://wa.me/message/DKE4XENTCMCKF1" target="_blank" rel="noopener">Order</a>
+          </div>
+        </div>
+      </article>
+    
+      <article class="product-card">
+        <div class="product-image-wrap">
+          <img src="images/lulu-raglan-tee.jpg" alt="Lulu Raglan Tee — Cute Crew" loading="lazy">
+        </div>
+        <div class="product-info">
+          <span class="pill">Raglan Collection</span>
+          <h3>Lulu Raglan Tee</h3>
+          <p>Lulu character • 220 GSM • DTF print</p>
+          <div class="product-bottom">
+            <strong>Rs. 1,600</strong>
+            <a class="order-btn" href="https://wa.me/message/DKE4XENTCMCKF1" target="_blank" rel="noopener">Order</a>
+          </div>
+        </div>
+      </article>
+    
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <div class="features">
+      <div class="feature"><div class="icon">🌸</div><strong>Premium Cotton</strong><span>Comfortable everyday wear</span></div>
+      <div class="feature"><div class="icon">👕</div><strong>220 GSM</strong><span>Quality T-shirt fabric</span></div>
+      <div class="feature"><div class="icon">✨</div><strong>DTF Print</strong><span>Detailed character designs</span></div>
+      <div class="feature"><div class="icon">🚚</div><strong>Islandwide</strong><span>Delivery available</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="sizes" class="section">
+  <div class="container">
+    <div class="section-head"><div><h2>Size Guide</h2><p>Measurements are in inches and approximate.</p></div></div>
+    <div class="size-box">
+      <table>
+        <tr><th>Size</th><th>S</th><th>M</th><th>L</th><th>XL</th><th>2XL</th></tr>
+        <tr><th>Chest</th><td>36</td><td>38</td><td>40</td><td>42</td><td>44</td></tr>
+        <tr><th>Length</th><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="order" class="section">
+  <div class="container">
+    <div class="order-banner">
+      <h2>Ready to wear your happy?</h2>
+      <p>Choose your design and size, then send your order through WhatsApp.</p>
+      <a class="btn" style="background:#fff;color:#14934f" href="https://wa.me/message/DKE4XENTCMCKF1" target="_blank" rel="noopener">💚 Order Through WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <img src="images/cute-crew-logo.jpg" alt="Cute Crew">
+    <div>Cute things. Cute moods. ♥</div>
+    <div>© Cute Crew</div>
+  </div>
+</footer>
+</body>
+</html>
